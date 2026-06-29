@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/hero.svg" alt="go-ipa" width="880"></p>
+
 > This is a luxfi-maintained fork of [crate-crypto/go-ipa](https://github.com/crate-crypto/go-ipa); see [LUXFI-FORK.md](./LUXFI-FORK.md) for sync policy.
 
 ---

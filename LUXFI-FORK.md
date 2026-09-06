@@ -6,7 +6,7 @@ This is a luxfi-maintained fork of [crate-crypto/go-ipa](https://github.com/crat
 
 * Upstream branch: `master`
 * Commit SHA: `53bbb0ceb27adb011950fd0fce885ad6d4516f84` (2024-07-24)
-* License: Apache-2.0 (see `LICENSE`)
+* License: Apache-2.0 or MIT (see `LICENSE-APACHE`, `LICENSE-MIT`, `NOTICE`)
 
 ## Why this fork exists
 

@@ -1,0 +1,13 @@
+github.com/luxfi/go-ipa
+
+Derived from github.com/crate-crypto/go-ipa at commit
+53bbb0ceb27adb011950fd0fce885ad6d4516f84 (2024-07-24), which is dual-licensed
+Apache-2.0 or MIT. Both texts travel with this copy, as LICENSE-APACHE and
+LICENSE-MIT.
+
+  Copyright the crate-crypto/go-ipa authors.
+
+Lux consumes the Bandersnatch curve parameters and IPA known-answer vectors;
+LUXFI-FORK.md records the upstream pin and what the fork is for. Apache-2.0
+section 4 requires this notice to accompany redistributions of the work or of
+any derivative of it.

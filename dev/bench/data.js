@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780289769832,
+  "lastUpdate": 1788936288728,
   "repoUrl": "https://github.com/luxfi/go-ipa",
   "entries": {
     "Go Benchmark": [
@@ -13834,6 +13834,570 @@ window.BENCHMARK_DATA = {
           {
             "name": "BenchmarkPrecompInitialize (github.com/crate-crypto/go-ipa/banderwagon) - allocs/op",
             "value": 131362,
+            "unit": "allocs/op",
+            "extra": "2 times\n4 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "z@zeekay.io",
+            "name": "Zach Kelling",
+            "username": "zeekay"
+          },
+          "committer": {
+            "email": "z@zeekay.io",
+            "name": "Zach Kelling",
+            "username": "zeekay"
+          },
+          "distinct": true,
+          "id": "0e155ff0a2b1768e024fa10ff753df703c2dc4b9",
+          "message": "luxfi fork: prepend fork-notice to README",
+          "timestamp": "2026-04-27T10:57:13-07:00",
+          "tree_id": "b62f5c17329cf29208ffd19007698d05a9caf9bd",
+          "url": "https://github.com/luxfi/go-ipa/commit/0e155ff0a2b1768e024fa10ff753df703c2dc4b9"
+        },
+        "date": 1788936287776,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "BenchmarkProofGeneration/numopenings=2000 (github.com/crate-crypto/go-ipa)",
+            "value": 46296781,
+            "unit": "ns/op",
+            "extra": "25 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkProofGeneration/numopenings=16000 (github.com/crate-crypto/go-ipa)",
+            "value": 94314261,
+            "unit": "ns/op",
+            "extra": "12 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkProofGeneration/numopenings=32000 (github.com/crate-crypto/go-ipa)",
+            "value": 143759727,
+            "unit": "ns/op",
+            "extra": "7 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkProofGeneration/numopenings=64000 (github.com/crate-crypto/go-ipa)",
+            "value": 249575795,
+            "unit": "ns/op",
+            "extra": "5 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkProofGeneration/numopenings=128000 (github.com/crate-crypto/go-ipa)",
+            "value": 464242355,
+            "unit": "ns/op",
+            "extra": "3 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkProofVerification/numopenings=2000 (github.com/crate-crypto/go-ipa)",
+            "value": 15543118,
+            "unit": "ns/op",
+            "extra": "76 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkProofVerification/numopenings=16000 (github.com/crate-crypto/go-ipa)",
+            "value": 70251039,
+            "unit": "ns/op",
+            "extra": "15 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkProofVerification/numopenings=32000 (github.com/crate-crypto/go-ipa)",
+            "value": 133740239,
+            "unit": "ns/op",
+            "extra": "8 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkProofVerification/numopenings=64000 (github.com/crate-crypto/go-ipa)",
+            "value": 248446052,
+            "unit": "ns/op",
+            "extra": "5 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkProofVerification/numopenings=128000 (github.com/crate-crypto/go-ipa)",
+            "value": 466357568,
+            "unit": "ns/op",
+            "extra": "3 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMultiExpG1/32_points (github.com/crate-crypto/go-ipa/bandersnatch)",
+            "value": 500349,
+            "unit": "ns/op",
+            "extra": "2359 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMultiExpG1/64_points (github.com/crate-crypto/go-ipa/bandersnatch)",
+            "value": 722412,
+            "unit": "ns/op",
+            "extra": "1663 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMultiExpG1/128_points (github.com/crate-crypto/go-ipa/bandersnatch)",
+            "value": 1144755,
+            "unit": "ns/op",
+            "extra": "1057 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMultiExpG1/256_points (github.com/crate-crypto/go-ipa/bandersnatch)",
+            "value": 1880558,
+            "unit": "ns/op",
+            "extra": "632 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMultiExpG1/512_points (github.com/crate-crypto/go-ipa/bandersnatch)",
+            "value": 3304576,
+            "unit": "ns/op",
+            "extra": "374 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMultiExpG1/1024_points (github.com/crate-crypto/go-ipa/bandersnatch)",
+            "value": 5308311,
+            "unit": "ns/op",
+            "extra": "225 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMultiExpG1/2048_points (github.com/crate-crypto/go-ipa/bandersnatch)",
+            "value": 9675323,
+            "unit": "ns/op",
+            "extra": "123 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMultiExpG1/4096_points (github.com/crate-crypto/go-ipa/bandersnatch)",
+            "value": 17533625,
+            "unit": "ns/op",
+            "extra": "67 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMultiExpG1/8192_points (github.com/crate-crypto/go-ipa/bandersnatch)",
+            "value": 31663693,
+            "unit": "ns/op",
+            "extra": "37 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMultiExpG1/16384_points (github.com/crate-crypto/go-ipa/bandersnatch)",
+            "value": 56615468,
+            "unit": "ns/op",
+            "extra": "20 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMultiExpG1/32768_points (github.com/crate-crypto/go-ipa/bandersnatch)",
+            "value": 106375418,
+            "unit": "ns/op",
+            "extra": "10 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMultiExpG1/65536_points (github.com/crate-crypto/go-ipa/bandersnatch)",
+            "value": 195078761,
+            "unit": "ns/op",
+            "extra": "6 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMultiExpG1/131072_points (github.com/crate-crypto/go-ipa/bandersnatch)",
+            "value": 369234055,
+            "unit": "ns/op",
+            "extra": "3 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMultiExpG1/262144_points (github.com/crate-crypto/go-ipa/bandersnatch)",
+            "value": 689556302,
+            "unit": "ns/op",
+            "extra": "2 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMultiExpG1/524288_points (github.com/crate-crypto/go-ipa/bandersnatch)",
+            "value": 1337433850,
+            "unit": "ns/op",
+            "extra": "1 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMultiExpG1/1048576_points (github.com/crate-crypto/go-ipa/bandersnatch)",
+            "value": 2570735382,
+            "unit": "ns/op",
+            "extra": "1 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMultiExpG1/2097152_points (github.com/crate-crypto/go-ipa/bandersnatch)",
+            "value": 5041172572,
+            "unit": "ns/op",
+            "extra": "1 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMultiExpG1/4194304_points (github.com/crate-crypto/go-ipa/bandersnatch)",
+            "value": 9897889645,
+            "unit": "ns/op",
+            "extra": "1 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMultiExpG1/8388608_points (github.com/crate-crypto/go-ipa/bandersnatch)",
+            "value": 18329520784,
+            "unit": "ns/op",
+            "extra": "1 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMultiExpG1/16777216_points (github.com/crate-crypto/go-ipa/bandersnatch)",
+            "value": 35334727631,
+            "unit": "ns/op",
+            "extra": "1 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkMultiExpG1Reference (github.com/crate-crypto/go-ipa/bandersnatch)",
+            "value": 2582980817,
+            "unit": "ns/op",
+            "extra": "1 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkManyMultiExpG1Reference (github.com/crate-crypto/go-ipa/bandersnatch)",
+            "value": 7728179514,
+            "unit": "ns/op",
+            "extra": "1 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkElementSetBytes (github.com/crate-crypto/go-ipa/bandersnatch/fr)",
+            "value": 48.77,
+            "unit": "ns/op",
+            "extra": "24225030 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkElementMulByConstants/mulBy3 (github.com/crate-crypto/go-ipa/bandersnatch/fr)",
+            "value": 4.741,
+            "unit": "ns/op",
+            "extra": "250498122 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkElementMulByConstants/mulBy5 (github.com/crate-crypto/go-ipa/bandersnatch/fr)",
+            "value": 5.931,
+            "unit": "ns/op",
+            "extra": "201945556 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkElementMulByConstants/mulBy13 (github.com/crate-crypto/go-ipa/bandersnatch/fr)",
+            "value": 9.974,
+            "unit": "ns/op",
+            "extra": "120155534 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkElementInverse (github.com/crate-crypto/go-ipa/bandersnatch/fr)",
+            "value": 1763,
+            "unit": "ns/op",
+            "extra": "685934 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkElementButterfly (github.com/crate-crypto/go-ipa/bandersnatch/fr)",
+            "value": 5.156,
+            "unit": "ns/op",
+            "extra": "232497871 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkElementExp (github.com/crate-crypto/go-ipa/bandersnatch/fr)",
+            "value": 8172,
+            "unit": "ns/op",
+            "extra": "149257 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkElementDouble (github.com/crate-crypto/go-ipa/bandersnatch/fr)",
+            "value": 2.817,
+            "unit": "ns/op",
+            "extra": "426913888 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkElementAdd (github.com/crate-crypto/go-ipa/bandersnatch/fr)",
+            "value": 5.086,
+            "unit": "ns/op",
+            "extra": "235907904 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkElementSub (github.com/crate-crypto/go-ipa/bandersnatch/fr)",
+            "value": 4.835,
+            "unit": "ns/op",
+            "extra": "247968270 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkElementNeg (github.com/crate-crypto/go-ipa/bandersnatch/fr)",
+            "value": 2.5,
+            "unit": "ns/op",
+            "extra": "479521570 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkElementDiv (github.com/crate-crypto/go-ipa/bandersnatch/fr)",
+            "value": 1823,
+            "unit": "ns/op",
+            "extra": "647550 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkElementFromMont (github.com/crate-crypto/go-ipa/bandersnatch/fr)",
+            "value": 13.4,
+            "unit": "ns/op",
+            "extra": "89189476 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkElementToMont (github.com/crate-crypto/go-ipa/bandersnatch/fr)",
+            "value": 19.03,
+            "unit": "ns/op",
+            "extra": "63167595 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkElementSquare (github.com/crate-crypto/go-ipa/bandersnatch/fr)",
+            "value": 19.04,
+            "unit": "ns/op",
+            "extra": "63032926 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkElementSqrt (github.com/crate-crypto/go-ipa/bandersnatch/fr)",
+            "value": 8212,
+            "unit": "ns/op",
+            "extra": "148318 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkElementMul (github.com/crate-crypto/go-ipa/bandersnatch/fr)",
+            "value": 19.01,
+            "unit": "ns/op",
+            "extra": "63020098 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkElementCmp (github.com/crate-crypto/go-ipa/bandersnatch/fr)",
+            "value": 27.77,
+            "unit": "ns/op",
+            "extra": "43193394 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=1/precomp (github.com/crate-crypto/go-ipa/banderwagon)",
+            "value": 3546,
+            "unit": "ns/op\t       0 B/op\t       0 allocs/op",
+            "extra": "335076 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=1/precomp (github.com/crate-crypto/go-ipa/banderwagon) - ns/op",
+            "value": 3546,
+            "unit": "ns/op",
+            "extra": "335076 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=1/precomp (github.com/crate-crypto/go-ipa/banderwagon) - B/op",
+            "value": 0,
+            "unit": "B/op",
+            "extra": "335076 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=1/precomp (github.com/crate-crypto/go-ipa/banderwagon) - allocs/op",
+            "value": 0,
+            "unit": "allocs/op",
+            "extra": "335076 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=2/precomp (github.com/crate-crypto/go-ipa/banderwagon)",
+            "value": 6865,
+            "unit": "ns/op\t       0 B/op\t       0 allocs/op",
+            "extra": "163347 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=2/precomp (github.com/crate-crypto/go-ipa/banderwagon) - ns/op",
+            "value": 6865,
+            "unit": "ns/op",
+            "extra": "163347 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=2/precomp (github.com/crate-crypto/go-ipa/banderwagon) - B/op",
+            "value": 0,
+            "unit": "B/op",
+            "extra": "163347 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=2/precomp (github.com/crate-crypto/go-ipa/banderwagon) - allocs/op",
+            "value": 0,
+            "unit": "allocs/op",
+            "extra": "163347 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=4/precomp (github.com/crate-crypto/go-ipa/banderwagon)",
+            "value": 13600,
+            "unit": "ns/op\t       0 B/op\t       0 allocs/op",
+            "extra": "88233 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=4/precomp (github.com/crate-crypto/go-ipa/banderwagon) - ns/op",
+            "value": 13600,
+            "unit": "ns/op",
+            "extra": "88233 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=4/precomp (github.com/crate-crypto/go-ipa/banderwagon) - B/op",
+            "value": 0,
+            "unit": "B/op",
+            "extra": "88233 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=4/precomp (github.com/crate-crypto/go-ipa/banderwagon) - allocs/op",
+            "value": 0,
+            "unit": "allocs/op",
+            "extra": "88233 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=8/precomp (github.com/crate-crypto/go-ipa/banderwagon)",
+            "value": 37207,
+            "unit": "ns/op\t       0 B/op\t       0 allocs/op",
+            "extra": "32671 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=8/precomp (github.com/crate-crypto/go-ipa/banderwagon) - ns/op",
+            "value": 37207,
+            "unit": "ns/op",
+            "extra": "32671 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=8/precomp (github.com/crate-crypto/go-ipa/banderwagon) - B/op",
+            "value": 0,
+            "unit": "B/op",
+            "extra": "32671 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=8/precomp (github.com/crate-crypto/go-ipa/banderwagon) - allocs/op",
+            "value": 0,
+            "unit": "allocs/op",
+            "extra": "32671 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=16/precomp (github.com/crate-crypto/go-ipa/banderwagon)",
+            "value": 90264,
+            "unit": "ns/op\t       0 B/op\t       0 allocs/op",
+            "extra": "13274 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=16/precomp (github.com/crate-crypto/go-ipa/banderwagon) - ns/op",
+            "value": 90264,
+            "unit": "ns/op",
+            "extra": "13274 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=16/precomp (github.com/crate-crypto/go-ipa/banderwagon) - B/op",
+            "value": 0,
+            "unit": "B/op",
+            "extra": "13274 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=16/precomp (github.com/crate-crypto/go-ipa/banderwagon) - allocs/op",
+            "value": 0,
+            "unit": "allocs/op",
+            "extra": "13274 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=32/precomp (github.com/crate-crypto/go-ipa/banderwagon)",
+            "value": 199772,
+            "unit": "ns/op\t       0 B/op\t       0 allocs/op",
+            "extra": "6038 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=32/precomp (github.com/crate-crypto/go-ipa/banderwagon) - ns/op",
+            "value": 199772,
+            "unit": "ns/op",
+            "extra": "6038 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=32/precomp (github.com/crate-crypto/go-ipa/banderwagon) - B/op",
+            "value": 0,
+            "unit": "B/op",
+            "extra": "6038 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=32/precomp (github.com/crate-crypto/go-ipa/banderwagon) - allocs/op",
+            "value": 0,
+            "unit": "allocs/op",
+            "extra": "6038 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=64/precomp (github.com/crate-crypto/go-ipa/banderwagon)",
+            "value": 424436,
+            "unit": "ns/op\t       0 B/op\t       0 allocs/op",
+            "extra": "2770 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=64/precomp (github.com/crate-crypto/go-ipa/banderwagon) - ns/op",
+            "value": 424436,
+            "unit": "ns/op",
+            "extra": "2770 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=64/precomp (github.com/crate-crypto/go-ipa/banderwagon) - B/op",
+            "value": 0,
+            "unit": "B/op",
+            "extra": "2770 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=64/precomp (github.com/crate-crypto/go-ipa/banderwagon) - allocs/op",
+            "value": 0,
+            "unit": "allocs/op",
+            "extra": "2770 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=128/precomp (github.com/crate-crypto/go-ipa/banderwagon)",
+            "value": 1018498,
+            "unit": "ns/op\t       0 B/op\t       0 allocs/op",
+            "extra": "1178 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=128/precomp (github.com/crate-crypto/go-ipa/banderwagon) - ns/op",
+            "value": 1018498,
+            "unit": "ns/op",
+            "extra": "1178 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=128/precomp (github.com/crate-crypto/go-ipa/banderwagon) - B/op",
+            "value": 0,
+            "unit": "B/op",
+            "extra": "1178 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=128/precomp (github.com/crate-crypto/go-ipa/banderwagon) - allocs/op",
+            "value": 0,
+            "unit": "allocs/op",
+            "extra": "1178 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=256/precomp (github.com/crate-crypto/go-ipa/banderwagon)",
+            "value": 2110687,
+            "unit": "ns/op\t       0 B/op\t       0 allocs/op",
+            "extra": "567 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=256/precomp (github.com/crate-crypto/go-ipa/banderwagon) - ns/op",
+            "value": 2110687,
+            "unit": "ns/op",
+            "extra": "567 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=256/precomp (github.com/crate-crypto/go-ipa/banderwagon) - B/op",
+            "value": 0,
+            "unit": "B/op",
+            "extra": "567 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompMSM/msm_length=256/precomp (github.com/crate-crypto/go-ipa/banderwagon) - allocs/op",
+            "value": 0,
+            "unit": "allocs/op",
+            "extra": "567 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompInitialize (github.com/crate-crypto/go-ipa/banderwagon)",
+            "value": 781567656,
+            "unit": "ns/op\t828163000 B/op\t  131363 allocs/op",
+            "extra": "2 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompInitialize (github.com/crate-crypto/go-ipa/banderwagon) - ns/op",
+            "value": 781567656,
+            "unit": "ns/op",
+            "extra": "2 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompInitialize (github.com/crate-crypto/go-ipa/banderwagon) - B/op",
+            "value": 828163000,
+            "unit": "B/op",
+            "extra": "2 times\n4 procs"
+          },
+          {
+            "name": "BenchmarkPrecompInitialize (github.com/crate-crypto/go-ipa/banderwagon) - allocs/op",
+            "value": 131363,
             "unit": "allocs/op",
             "extra": "2 times\n4 procs"
           }
